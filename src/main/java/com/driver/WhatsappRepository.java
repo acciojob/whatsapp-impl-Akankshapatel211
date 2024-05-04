@@ -39,8 +39,9 @@ public class WhatsappRepository {
 
         }
         else{
-            group.setName("Group "+customGroupCount);
             customGroupCount++;
+            group.setName("Group "+customGroupCount);
+
         }
 
         //Group group = new Group(customGroupCount+"",users.size());
